@@ -1,0 +1,31 @@
+html {
+    width: 140%;
+  }
+  
+  .material-icons._title{
+    margin-bottom: 2rem;
+  }
+  h2 {
+    /* display: block; */
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .map {
+    height: 400px;
+  }
+  iframe{
+    display: block;
+    margin:auto;
+  }
+  .waves-effect.waves-light.btn.col.s8.offset-s2{
+    margin-bottom: .5rem;
+    background-color: #0097a7;
+  }
+  .mapTitle{
+    font-size:1.5rem;
+    margin-top:0.5em;
+  }
+  .mapPic{
+    height: 20em;
+  }

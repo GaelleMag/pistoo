@@ -1,0 +1,37 @@
+<!-- là pour soutenir les composants contenant aux éléments map -->
+<section>
+    <h2 class="card-panel mapTitle"><span class="material-icons _title">explore</span> Map</h2>
+</section>
+<section>
+    <div class="row">
+        <div class="row">
+            <div class="col s10 offset-s1 m8 offset-m2">
+                <div class="card">
+                    <div class="card-image vieuxLyon">
+                    </div>
+                    <div class="card-content">
+                        <p> Découvrez le Vieux-Lyon avec ses traboules et leurs secrets ! Vous déambulerez dans ce quartier
+                            préservé depuis le XVIe sciècle à travers ses façades, ses gargouilles, ses passages et ses rues pavées. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="card-panel col s10 offset-s1 m8 offset-m2">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</section>
+<section class="row">
+    <h2 class="card-panel mapTitle"> 
+        <span class="material-icons _title">fast_forward</span>
+        Allons-y!
+    </h2>
+        <a class="waves-effect waves-light btn col s10 offset-s1 m8 offset-m2">Se rendre au point d'intérêt</a>
+        <a  routerLink="/stories/enigmes/context/1"
+        class="goToEnigme waves-effect waves-light btn col s10 offset-s1 m8 offset-m2">Start</a>
+</section>

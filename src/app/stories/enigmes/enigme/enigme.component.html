@@ -1,0 +1,21 @@
+<section class="context">
+    <h2 class="card-panel"> {{ enigme.title }}</h2>
+    <div class="row">
+        <div class="col s10 offset-s1 m8 offset-m2">
+            <div class="card">
+                <div class="card-image lugdunum">
+                   <img [src]="enigme.image" >
+                </div>
+                <div class="card-content">
+                    <p> {{ enigme.context }}
+                    </p>
+                </div>
+                <div>
+                    <a routerLink="/stories/enigmes/form"
+                    class="goToStory waves-effect waves-light btn col s6 offset-s3"> Question!</a>   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
